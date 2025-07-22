@@ -1,4 +1,4 @@
-import { FaShoppingBasket, FaHeart, FaUserCircle, FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
