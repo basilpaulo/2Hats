@@ -1,0 +1,13 @@
+.ecom-products {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.ecom-products h2 {
+  text-align: left;
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+}
+.row.g-0 > [class*='col-'] {
+  padding: 0;
+}

@@ -1,0 +1,27 @@
+.ecom-footer {
+  padding: 2rem 0 1.5rem 0;
+  margin: 0;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+.ecom-footer-columns {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.ecom-footer-col { flex: 1 1 160px; min-width: 140px; text-align: left; }
+.ecom-footer-title { font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem; letter-spacing: 2px; }
+.ecom-footer-heading { font-size: 1.2rem; font-weight: 600; margin-bottom: 0.7rem; }
+.ecom-footer-list { display: flex; flex-direction: column; gap: 0.5rem; font-size: 1rem; opacity: 0.92; }
+.ecom-footer-socials { display: flex; gap: 1rem; margin-top: 1rem; }
+.ecom-footer-columns .ecom-footer-col:first-child .ecom-footer-title { margin-top: 2rem; }
+.ecom-footer-columns .ecom-footer-col:last-child { padding-right: 0; margin-right: 0; }
+@media (max-width: 900px) { .ecom-footer-columns { flex-wrap: wrap; gap: 1.5rem; } .ecom-footer-col { min-width: 120px; } }
+@media (max-width: 700px) { .ecom-footer-columns { flex-direction: column; gap: 2rem; align-items: flex-start; } .ecom-footer-col { min-width: 0; width: 100%; text-align: left; } }

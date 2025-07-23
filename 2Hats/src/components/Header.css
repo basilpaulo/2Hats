@@ -1,0 +1,132 @@
+/* Header & Menu Styles extracted from App.css */
+.ecom-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 0.5rem 0 0.2rem 0;
+}
+.ecom-header .container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: unset;
+}
+.ecom-logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 0.3rem;
+  margin-left: 0;
+  text-align: center;
+  display: block;
+  height: auto;
+}
+.ecom-menu {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1050px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+}
+.ecom-menu-left {
+  flex: 0 0 auto;
+  margin-right: 2rem;
+}
+.ecom-menu-center {
+  flex: 1 1 0;
+  justify-content: center;
+  gap: 1.2rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.98rem;
+}
+.ecom-menu-right {
+  flex: 0 0 auto;
+  margin-left: 3rem;
+  gap: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+.ecom-menu-item,
+.ecom-menu-item.btn-link {
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+.active-menu-item {
+  color: #888 !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+.active-menu-item:hover {
+  color: #888 !important;
+}
+.ecom-menu-item {
+  font-weight: 700;
+}
+@media (max-width: 900px) {
+  .ecom-logo { font-size: 2rem; margin-bottom: 0.3rem; }
+  .ecom-menu { gap: 1.2rem; font-size: 1rem; }
+  .ecom-menu-center { gap: 1.2rem; font-size: 1rem; }
+  .ecom-menu-left, .ecom-menu-right { margin: 0 0.5rem; }
+}
+@media (max-width: 600px) {
+  .ecom-logo { font-size: 1.5rem; margin-bottom: 0.2rem; }
+  .ecom-menu { flex-direction: column; gap: 0.7rem; }
+  .ecom-menu-center { flex-wrap: wrap; gap: 0.7rem; font-size: 0.98rem; }
+  .ecom-menu-left, .ecom-menu-right { margin: 0; justify-content: center; }
+}
+.ecom-search-img { height: 18px !important; width: 18px !important; }
+.ecom-icon { font-size: 1.1em; }
+
+/* --- Mobile Hamburger Menu --- */
+.ecom-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.ecom-hamburger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+@media (max-width: 767px) {
+  .ecom-hamburger { display: flex; }
+  .ecom-menu-center { display: none !important; }
+}
+
+.mobile-menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 2000;
+}
+.mobile-menu {
+  width: 240px;
+  height: 100%;
+  background: #fff;
+  padding: 2rem 1.25rem;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+}
+.mobile-menu-item {
+  padding: 0.75rem 0;
+  font-weight: 700;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+
