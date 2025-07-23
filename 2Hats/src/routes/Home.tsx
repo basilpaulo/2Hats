@@ -9,11 +9,23 @@ const Home: React.FC = () => (
   <>
     <Header />
     <main>
-      <Hero />
-      <Products />
-      <Projects />
-    </main>
-    <Footer />
+  <Hero />
+
+  {/* Products section */}
+  <section id="products-section">
+    <Products />
+  </section>
+
+  {/* Projects section */}
+  <section id="projects-section">
+    <Projects />
+  </section>
+</main>
+
+{/* Footer */}
+<footer id="footer-section">
+  <Footer />
+</footer>
   </>
 );
 
