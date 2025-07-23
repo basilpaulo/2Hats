@@ -11,18 +11,15 @@ const Home: React.FC = () => (
     <main>
   <Hero />
 
-  {/* Products section */}
   <section id="products-section">
     <Products />
   </section>
 
-  {/* Projects section */}
   <section id="projects-section">
     <Projects />
   </section>
 </main>
 
-{/* Footer */}
 <footer id="footer-section">
   <Footer />
 </footer>

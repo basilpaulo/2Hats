@@ -41,7 +41,6 @@
   color: #888;
 }
 
-/* Ensure root container fits screen and prevents horizontal scroll */
 body, #root, .ecom-root {
   margin: 0;
   padding: 0;
@@ -55,7 +54,6 @@ body, #root, .ecom-root {
   background: #f7f7f7;
   color: #222;
 }
-/* Header: vertical stack, logo top center, menu below */
 .ecom-header {
   position: sticky;
   top: 0;
@@ -81,7 +79,6 @@ body, #root, .ecom-root {
   display: block;
   height: auto;
 }
-/* Menu bar groupings */
 .ecom-menu {
   width: 100%;
   min-width: 320px;
@@ -167,7 +164,6 @@ body, #root, .ecom-root {
   }
 }
 
-/* Hero overlay styles */
 .ecom-hero {
   position: relative;
   width: 100vw;
@@ -192,7 +188,6 @@ body, #root, .ecom-root {
   object-fit: cover;
   display: block;
 }
-/* Hero overlay styles - update for rectangle and smaller title */
 .ecom-hero-overlay {
   position: absolute;
   top: 50%;
@@ -324,7 +319,6 @@ body, #root, .ecom-root {
   border-radius: 10px;
   background: #ddd;
 }
-/* Footer: ensure no horizontal overflow */
 .ecom-footer {
   padding: 2rem 0 1.5rem 0;
   margin: 0;
